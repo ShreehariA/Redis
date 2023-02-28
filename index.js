@@ -5,8 +5,8 @@ import List from './list'
 import Set from './set'
 const redis= new Redis()
 Set(redis)
-// List(redis)
-// Strings(redis)
-// Hashes(redis)
+List(redis)
+Strings(redis)
+Hashes(redis)
 
 
