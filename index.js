@@ -4,7 +4,7 @@ import Hashes from './hash'
 import List from './list'
 import Set from './set'
 const redis= new Redis()
-String(redis)
+Strings(redis)
 Set(redis)
 List(redis)
 Strings(redis)
